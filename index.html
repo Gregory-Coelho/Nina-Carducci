@@ -15,19 +15,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-    <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"></noscript>
+    <link rel="preload" aria-label="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" aria-label="stylesheet" href="./assets/bootstrap/bootstrap.min.css"></noscript>
 
-    <link rel="preload" href="./assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./assets/style.css"></noscript>
-
-
+    <link rel="preload" aria-label="preload" href="./assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" aria-label="stylesheet" href="./assets/style.css"></noscript>
 
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <link rel="preconnect" aria-label="fonts" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" aria-label="fonts" href="https://fonts.gstatic.com" crossorigin />
     <link
+    aria-label="stylesheet"
+    aria-label="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
@@ -89,12 +91,14 @@
       <h1 class="name">Nina Carducci</h1>
       <nav class="nav">
         <ul>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#gallery">Galerie</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a tabindex="1" aria-label="about" href="#about">À propos</a></li>
+          <li><a tabindex="2" aria-label="gallery" href="#gallery">Galerie</a></li>
+          <li><a tabindex="3" aria-label="services" href="#services">Service</a></li>
+          <li><a  tabindex="4" aria-label="contact" href="#contact">Contact</a></li>
           <li>
             <a
+            tabindex="5"
+            aria-label="social-link"
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
