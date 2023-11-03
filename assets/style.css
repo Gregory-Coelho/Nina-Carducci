@@ -224,7 +224,7 @@ form textarea {
   font-size: 1.2em;
 }
 input[type="submit"] {
-  background-color: #585023;
+  background-color: #beb45a;
   padding: 0.5em 1em;
 }
 @media all and (max-width: 1180px) {
